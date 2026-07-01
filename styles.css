@@ -25,10 +25,17 @@
     font-family: 'Inter', 'Segoe UI', Roboto, Arial, sans-serif;
 }
 
+html {
+    background-color: var(--white);
+    color: var(--text-dark);
+    min-height: 100%;
+}
+
 body {
     color: var(--text-dark);
     line-height: 1.6;
     background-color: var(--white);
+    min-height: 100%;
 }
 
 .container {
@@ -95,11 +102,26 @@ body {
 
 .bg-light {
     background-color: var(--light-bg);
+    color: var(--text-dark);
 }
 
 .bg-dark {
     background-color: var(--primary-bg);
     color: var(--text-light);
+}
+
+.bg-dark * {
+    color: inherit;
+}
+
+.title-light,
+.hero-text h1 span,
+.step-num,
+.btn-primary,
+.btn-outline:hover,
+.contact-phone,
+.footer-logo {
+    color: inherit;
 }
 
 /* HEADER */
