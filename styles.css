@@ -4,9 +4,9 @@
     /* Preto Fundo/Tech */
     --secondary-bg: #1C1C1C;
     /* Preto Secundário para Cards */
-    --accent: #E31837;
+    --brand-accent: #E31837;
     /* Vermelho Automotivo (Destaque e Botões) */
-    --accent-hover: #BF102A;
+    --brand-accent-hover: #BF102A;
     /* Vermelho Hover */
     --light-bg: #F8FAFC;
     /* Cinza claro para áreas claras */
@@ -58,12 +58,12 @@ body {
 }
 
 .btn-primary {
-    background: var(--accent);
+    background: var(--brand-accent);
     color: var(--white);
 }
 
 .btn-primary:hover {
-    background: var(--accent-hover);
+    background: var(--brand-accent-hover);
 }
 
 .btn-outline {
@@ -131,7 +131,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 100;
-    border-bottom: 3px solid var(--accent);
+    border-bottom: 3px solid var(--brand-accent);
 }
 
 .header-content {
@@ -151,10 +151,10 @@ header {
 /* HERO SECTION */
 .hero {
     background: linear-gradient(rgba(17, 17, 17, 0.9), rgba(17, 17, 17, 0.9)),
-        url('https://images.unsplash.com/photo-1632823462963-c793ff0e81f1?auto=format&fit=crop&w=1920&q=80') center/cover;
+        url('assets/images/hero-bg.jfif') center/cover;
     color: var(--white);
     padding: 120px 0 100px;
-    border-bottom: 5px solid var(--accent);
+    border-bottom: 5px solid var(--brand-accent);
 }
 
 .hero-content {
@@ -172,7 +172,7 @@ header {
 }
 
 .hero-text h1 span {
-    color: var(--accent);
+    color: var(--brand-accent);
 }
 
 .hero-text p {
@@ -206,7 +206,7 @@ header {
     background: var(--white);
     padding: 20px;
     border-radius: 6px;
-    border-left: 4px solid var(--accent);
+    border-left: 4px solid var(--brand-accent);
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
 }
 
@@ -232,7 +232,7 @@ header {
 
 .service-card:hover {
     transform: translateY(-5px);
-    border-bottom: 3px solid var(--accent);
+    border-bottom: 3px solid var(--brand-accent);
 }
 
 .service-card h3 {
@@ -259,7 +259,7 @@ header {
     padding: 25px;
     border-radius: 6px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
-    border-top: 4px solid var(--accent);
+    border-top: 4px solid var(--brand-accent);
 }
 
 .equip-item h4 {
@@ -300,7 +300,7 @@ header {
     font-weight: bold;
     font-size: 1.2rem;
     margin: 0 auto 15px;
-    border: 2px solid var(--accent);
+    border: 2px solid var(--brand-accent);
 }
 
 .step h5 {
@@ -326,7 +326,7 @@ header {
     margin-top: -80px;
     position: relative;
     z-index: 10;
-    border-top: 5px solid var(--accent);
+    border-top: 5px solid var(--brand-accent);
 }
 
 .contact-info h3 {
@@ -359,7 +359,7 @@ header {
 
 .form-control:focus {
     outline: none;
-    border-color: var(--accent);
+    border-color: var(--brand-accent);
 }
 
 select.form-control {
@@ -440,11 +440,11 @@ footer li {
 }
 
 .hero-image-mock {
-    background: url('https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&w=800&q=80') center/cover;
+    background: url('assets/images/hero-mock.jfif') center/cover;
     height: 500px;
     border-radius: 8px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    border-bottom: 6px solid var(--accent);
+    border-bottom: 6px solid var(--brand-accent);
 }
 
 .section-title-center {
@@ -476,7 +476,7 @@ footer li {
 
 .contact-phone {
     font-size: 1.2rem;
-    color: var(--accent);
+    color: var(--brand-accent);
     font-weight: 800;
 }
 
